@@ -1,0 +1,166 @@
+.full-content-cls {
+	width: 100%;
+    height: 100%;
+}
+
+.flickrGalleryTitleHolder  {
+	line-height: 40px;
+    font-size: 22px;
+}
+
+.white-background-common {
+	background-color: #FFF;
+}
+
+.left-float-cls {
+	float: left;
+}
+
+.right-float-cls {
+	float: right;
+}
+
+.clear-both-cls {
+	clear: both;
+}
+
+.bold-class {
+	font-weight: bold;
+}
+
+.status-msg-cls {
+	font-size: 24px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#flickrSideMenu {
+	position: relative;
+	margin-top: 26px;
+	margin-left: 10px;
+}
+
+.flickrSideMenuHolder, .flickerGalleryTitleLeftSpacing {
+    max-width: 230px;
+    min-width: 160px;
+    border-right: 1px solid #ccc;
+}
+
+.dcTextPaddingCls {
+	padding-left: 5px;
+}
+
+.flickrContent .menuText {
+	
+}
+
+.flickrGalleryItem {
+	line-height: 37px;
+    margin-left: 25px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #CCC;
+    border: 1px solid #DDD;
+    margin: 3px 0px;
+}
+
+.flickrGalleryItem.activeGallery, .flickrGalleryItem:hover {
+    border: 1px solid #0F0F0F;
+    background-color: green;
+    color: #FFF;
+}
+
+
+#flickrContentWrapper {
+    height: 600px;
+    padding: 15px;
+    margin: 10px 0px 10px 0px;
+}
+
+.flickrPhotoDetailedView {
+	display: none;
+	position: absolute;
+	top: 10px;
+}
+
+/* Styles related to data source tiles */
+.galleryPhotoTileHolder {
+	border: 1px solid #ccc;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 152px;
+    cursor: pointer;
+    position: relative;
+    border-radius: 5px;
+}
+
+.dataSourceMoreDetailsIcon {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: url("../img/summaryView.png") no-repeat center center;
+    right: 10px;
+    top: 10px;
+}
+
+
+.galleryPhotoTileHolder:hover {
+	box-shadow: 5px 5px 5px #888888;
+	border-radius: 5px;
+} 
+
+.dataSourceTitle {
+	font-size: 21px;
+    margin-top: 10px;
+    margin-bottom: 8px;	
+}
+
+.gallaryLargePhotoHolder {
+	height: 100%;
+}
+
+.backToGallery {
+	height: 27px;
+    width: 27px;
+    border: 1px solid #CCC;
+    line-height: 25px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border-color: green;
+    background-color: green;
+    color: white;
+}
+
+.galleryPhotoDescription {
+	height: 300px;
+}
+
+.loaderCommonCls {
+	width: 24px;
+	height: 24px;
+}
+
+.text-align-center-cls {
+	text-align: center;
+} 
+
+.big-font-cls {
+	font-size: 28px;
+    padding-left: 25px;
+    background-color: #1D3F42;
+    color: white;
+    border-bottom: 3px solid yellow;
+    line-height: 64px;
+}
+
+.col-md-12.remove-padding-cls {
+	padding: 0px;
+}
+
+.margin-spacing-cls {
+	margin-top: 20px;
+}
+
+
